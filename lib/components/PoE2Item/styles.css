@@ -1,0 +1,135 @@
+@font-face {
+  font-family: "fontin";
+  src: url(../../assets//fonts/Fontin-SmallCaps.ttf);
+}
+
+.poe2-item {
+  display: inline-block;
+  width: auto;
+  white-space: nowrap;
+  font-family: "fontin", sans-serif;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 0.375rem;
+  line-height: 1.25rem;
+}
+
+.text-poe-default {
+  color: rgb(127, 127, 127);
+}
+
+.text-augment {
+  color: rgb(136, 136, 255);
+}
+
+.text-white {
+  color: white;
+}
+
+.text-enchant {
+  color: rgb(184, 218, 242);
+}
+
+.text-unique {
+  color: #af6025;
+}
+
+.text-corrupted {
+  color: #d20000;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.poe2-normal-wrapper .item-header {
+  background: url(../../assets/normal-left-2.png) top left / 29px auto no-repeat,
+    url(../../assets/normal-right-2.png) top right / 29px auto no-repeat,
+    url(../../assets/normal-middle-2.png) top center / 29px auto repeat-x;
+  color: #c8c8c8;
+  height: 34px;
+}
+
+.poe2-magic-wrapper .item-header {
+  background: url(../../assets/magic-left-2.png) top left / 29px auto no-repeat,
+    url(../../assets/magic-right-2.png) top right / 29px auto no-repeat,
+    url(../../assets/magic-middle-2.png) top center / 29px auto repeat-x;
+  color: #88f;
+  height: 34px;
+}
+
+.poe2-rare-wrapper .item-header {
+  background: url(../../assets/rare-double-left-2.png) top left / 46px auto
+      no-repeat,
+    url(../../assets/rare-double-right-2.png) top right / 46px auto no-repeat,
+    url(../../assets/rare-double-middle-2.png) top center / 46px auto repeat-x;
+  color: #ff7;
+  height: 54px;
+}
+
+.poe2-unique-wrapper .item-header {
+  background: url(../../assets/unique-double-left-2.png) top left / 46px auto
+      no-repeat,
+    url(../../assets/unique-double-right-2.png) top right / 46px auto no-repeat,
+    url(../../assets/unique-double-middle-2.png) top center / 46px auto repeat-x;
+  color: #af6025;
+  height: 54px;
+}
+
+.poe2-normal-wrapper .item-separator {
+  background: url(../../assets/mod-separator-rare.png) center no-repeat;
+}
+
+.poe2-magic-wrapper .item-separator {
+  background: url(../../assets/mod-separator-magic.png) center no-repeat;
+}
+
+.poe2-rare-wrapper .item-separator {
+  background: url(../../assets/mod-separator-rare.png) center no-repeat;
+}
+
+.poe2-unique-wrapper .item-separator {
+  background: url(../../assets/mod-separator-unique.png) center no-repeat;
+}
+
+.item-header {
+  min-width: fit-content;
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.item-content {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+.item-content-inner {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  line-height: 1.25rem;
+}
+
+.item-separator {
+  height: 7.9px;
+}

@@ -1,0 +1,7 @@
+{
+  "extends": "./tsconfig.app.json",
+  "include": ["lib"],
+  "rules": {
+    "@typescript-eslint/no-unused-vars": ["error", { "varsIgnorePattern": "React" }]
+  }
+}
